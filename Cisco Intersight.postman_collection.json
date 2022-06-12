@@ -1424,8 +1424,17 @@
 								"value": "{{current-date}}"
 							}
 						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"ResourceGroups\": [\n        {\n            \"Moid\": \"YourPodXDenverMOID\"\n        },\n        {\n            \"Moid\": \"YourPodXDallasMOID\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "https://intersight.com/api/v1/organization/Organizations/{Moid}",
+							"raw": "https://intersight.com/api/v1/organization/Organizations/{YourOrgMOID}",
 							"protocol": "https",
 							"host": [
 								"intersight",
@@ -1436,7 +1445,7 @@
 								"v1",
 								"organization",
 								"Organizations",
-								"{Moid}"
+								"{YourOrgMOID}"
 							]
 						}
 					},
