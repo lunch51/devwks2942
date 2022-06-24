@@ -322,7 +322,7 @@ variable "ipv6_enable" {
 }
 
 variable "dns_name" {
-  default     = "PodJeff_dns"
+  default     = "dns"
   description = "Name for the Policy."
   type        = string
 }
