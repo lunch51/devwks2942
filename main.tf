@@ -10,7 +10,7 @@ terraform {
 provider "intersight" {
     # Configuration options
     apikey    = "62545ef67564612d333560e2/62545ef67564612d333560e7/629139897564612d3304a081"
-    secretkey = "/Users/jefdrury/Documents/CiscoLive22/SecretKey1.txt"
+    secretkey = "/home/devnet/devwks2121/secretkey.txt"
     endpoint = "https://intersight.com" 
 }
 
